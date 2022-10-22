@@ -1,5 +1,8 @@
 <?php 
-echo date(DATE_ATOM, mktime(0, 0, 0, 7, 1, 2000));
+
+echo '<p>';
+echo date('l jS \of F Y h:i:s A');
+echo '</p>';
 
 echo '<hr size="1" noshade>';
 phpinfo();
